@@ -11,7 +11,7 @@
 近期会暂时停止更新，**因为自己有了新的想挑战的事情**！当我忙完后我就会继续更新项目。
 
 ## Pinned Project (Maybe you're interested!) ##
-![ContentGrabbingJi](https://github-readme-stats.vercel.app/api/pin/?username=LamGC&repo=ContentGrabbingJi&show_owner=true)
+![ContentGrabbingJi](https://github-readme-stats.vercel.app/api/pin/?username=LamGC&repo=ContentGrabbingJi&show_owner=true&cache_seconds=10800)
 
 ## More ##
 KeyBase: [KeyBase@LamGC](https://keybase.io/LamGC)  
