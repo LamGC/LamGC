@@ -1,6 +1,5 @@
 ## About Me ##
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=LamGC&ount_private=true&show_icons=true)
-
+![LamGC's github stats](https://github-readme-stats.vercel.app/api?username=LamGC&ount_private=true&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LamGC&layout=compact)
 
 > “这不是开发的技术，这是开发的艺术！” ——《飞驰人生》（有删改）
