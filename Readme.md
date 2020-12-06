@@ -11,8 +11,8 @@
 近期会暂时停止更新，**因为自己有了新的想挑战的事情**！当我忙完后我就会继续更新项目。
 ## More ##
 KeyBase：[KeyBase@LamGC](https://keybase.io/LamGC)  
-主要联系邮箱（Main contact email）： lam827@lamgc.net  
-工作专用邮箱（Work specific email）： lamgc@outlook.com  
+主要联系邮箱（Main contact email）：[lam827@lamgc.net](mailto:lam827@lamgc.net)  
+工作专用邮箱（Work specific email）：[lamgc@outlook.com](mailto:lamgc@outlook.com)  
 > 警告：请*不要* **向我的任何邮箱发送垃圾邮件**（*包括但不限于* **广告、非我本人订阅的邮件**），我将会对相关邮件的发送者或来源地址进行封禁！  
 > 另外，请不要向我的工作专用邮箱发送与工作（或开发）**无任何关系**的内容（如果是咨询或闲聊等可发送至主要联系邮箱）。
 
