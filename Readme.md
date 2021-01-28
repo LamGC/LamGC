@@ -18,4 +18,9 @@ GPG Fingerpint：`7EF5 FB1E 65C1 A6C6 D02D  FCDF CE57 746D 7E5E E6EF`
 Readme Stats By [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)  
 Format specification By [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)  
 
+<details>
+<summary></summary>
+<pre>
 <span id="surprise-tips" style="color: #ffffff10;">提示: 在这段文字更新开始，本仓库每个提交的说明中都会附带一段内容（至于是什么内容，我也不清楚）。</span>
+</pre>
+</details>
