@@ -4,6 +4,10 @@
 
 > “这不是开发的技术，这是开发的艺术！” ——《飞驰人生》（有更改）
 
+## Notify ##
+近期（自 3 月份起）有其他的非开发类型的工作，而且安排的周期较大，所以目前的项目暂时停更，部分项目计划重构，尽请期待！  
+预计 8 月左右恢复更新。
+
 ## More ##
 KeyBase：[KeyBase@LamGC](https://keybase.io/LamGC)  
 主要联系邮箱（Main contact email）：[lam827@lamgc.net](mailto:lam827@lamgc.net)  
