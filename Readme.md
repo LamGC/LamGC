@@ -4,10 +4,6 @@
 
 > “这不是开发的技术，这是开发的艺术！” ——《飞驰人生》（有更改）
 
-## Notify ##
-近期（自 3 月份起）有其他的非开发类型的工作，而且安排的周期较大，所以目前的项目暂时停更，部分项目计划重构，尽请期待！  
-预计 8 月左右恢复更新。
-
 ## More ##
 KeyBase：[KeyBase@LamGC](https://keybase.io/LamGC)  
 主要联系邮箱（Main contact email）：[lam827@lamgc.net](mailto:lam827@lamgc.net)  
@@ -21,10 +17,3 @@ GPG Fingerpint：`7EF5 FB1E 65C1 A6C6 D02D  FCDF CE57 746D 7E5E E6EF`
 ----------
 Readme Stats By [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)  
 Format specification By [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)  
-
-<details>
-<summary></summary>
-<pre>
-<span id="surprise-tips" style="color: #ffffff10;">提示: 在这段文字更新开始，本仓库每个提交的说明中都会附带一段内容（至于是什么内容，我也不清楚）。</span>
-</pre>
-</details>
