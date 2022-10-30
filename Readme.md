@@ -1,7 +1,8 @@
 ## About Me ##
-![LamGC's github stats](https://github-readme-stats.vercel.app/api?username=LamGC&ount_private=true&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LamGC&layout=compact)
-
+<img alt="LamGC's github stats" src="https://github-readme-stats.vercel.app/api?username=LamGC&ount_private=true&show_icons=true&card_width=550"/><br/>
+<img alt="Most used programming languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LamGC&layout=compact&card_width=500" /><br/>
+<a href="https://osu.ppy.sh/users/10333003"><img alt="osu-stats" src="https://osu-sig.vercel.app/card?user=10333003&mode=std&animation=true&hue=200" /></a>
+  
 > “这不是开发的技术，这是开发的艺术！” ——《飞驰人生》（有更改）
 
 ## More ##
@@ -15,5 +16,6 @@ GPG 公钥（如果需要验证签名，或与我保密通讯）（[Get from Key
 GPG Fingerpint：`7EF5 FB1E 65C1 A6C6 D02D  FCDF CE57 746D 7E5E E6EF`
 
 ----------
-Readme Stats By [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)  
+Github Readme Stats By [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)  
 Format specification By [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)  
+osu! stats card By [solstice23/osu-stats-signature](https://github.com/solstice23/osu-stats-signature/)
