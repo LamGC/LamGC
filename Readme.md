@@ -1,6 +1,6 @@
 ## About Me ##
-<img alt="LamGC's github stats" src="https://github-readme-stats.vercel.app/api?username=LamGC&ount_private=true&show_icons=true&card_width=550"/><br/>
-<img alt="Most used programming languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LamGC&layout=compact&card_width=500" /><br/>
+<img alt="LamGC's github stats" src="https://github-readme-stats.vercel.app/api?username=LamGC&ount_private=true&card_width=550&show_icons=true"/><br/>
+<img alt="Most used programming languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LamGC&card_width=500&layout=compact" /><br/>
 <a href="https://osu.ppy.sh/users/10333003"><img alt="osu-stats" src="https://osu-sig.vercel.app/card?user=10333003&mode=std&animation=true&hue=200" /></a>
   
 > “这不是开发的技术，这是开发的艺术！” ——《飞驰人生》（有更改）
