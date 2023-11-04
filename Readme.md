@@ -6,7 +6,7 @@
   
 > “这不是开发的技术，这是开发的艺术！” ——《飞驰人生》（有更改）
 
-## More ##
+## Contact ##
 KeyBase：[KeyBase@LamGC](https://keybase.io/LamGC)  
 主要联系邮箱（Main contact email）：[lam827@lamgc.net](mailto:lam827@lamgc.net)  
 工作专用邮箱（Work specific email）：[lamgc@outlook.com](mailto:lamgc@outlook.com)  
