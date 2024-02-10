@@ -1,7 +1,7 @@
 ## About Me ##
 <!-- 如果有人用 Github Readme Stats 官方地址出现无法获取卡片的情况，可以将官方端域名修改为 grs-mirror-0001.vercel.app -->
-<img alt="LamGC's github stats" src="https://grs-mirror-0001.vercel.app/api?username=LamGC&ount_private=true&card_width=550&show_icons=true"/><br/>
-<img alt="Most used programming languages" src="https://grs-mirror-0001.vercel.app/api/top-langs/?username=LamGC&card_width=500&layout=compact" /><br/>
+<img alt="LamGC's github stats" src="https://github-readme-stats-self-hosted.vercel.app/api?username=LamGC&ount_private=true&card_width=550&show_icons=true"/><br/>
+<img alt="Most used programming languages" src="https://github-readme-stats-self-hosted.vercel.app/api/top-langs/?username=LamGC&card_width=500&layout=compact" /><br/>
 <a href="https://osu.ppy.sh/users/10333003"><img alt="osu-stats" src="https://osu-sig.vercel.app/card?user=10333003&mode=std&animation=true&hue=200" /></a>
   
 > “这不是开发的技术，这是开发的艺术！” ——《飞驰人生》（有更改）
