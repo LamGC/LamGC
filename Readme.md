@@ -17,11 +17,6 @@ GPG 公钥（如果需要验证签名，或与我保密通讯）（[Get from Key
 GPG Fingerpint：`7EF5 FB1E 65C1 A6C6 D02D  FCDF CE57 746D 7E5E E6EF`
 
 ----------
-
-[![Profile visitcount](https://visitcount.itsvg.in/api?id=LamGC&label=Profile%20Views&color=1&icon=5&pretty=false)](https://visitcount.itsvg.in)
-
-----------
-Profile visitcount By [Visit Count Pro](visitcount.itsvg.in)  
 Github Readme Stats By [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)  
 Format specification By [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)  
 osu! stats card By [solstice23/osu-stats-signature](https://github.com/solstice23/osu-stats-signature/)
