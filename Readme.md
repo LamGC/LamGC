@@ -14,7 +14,7 @@ KeyBase：[KeyBase@LamGC](https://keybase.io/LamGC)
 > 另外，请不要向我的工作专用邮箱发送与工作（或开发）**无任何关系**的内容（如果是咨询或闲聊等可发送至主要联系邮箱）。
 
 GPG 公钥（如果需要验证签名，或与我保密通讯）（[Get from KeyBase](https://keybase.io/lamgc/pgp_keys.asc?fingerprint=7ef5fb1e65c1a6c6d02dfcdfce57746d7e5ee6ef)）：[LamGC &lt;lam827@lamgc.net&gt; &lt;lamgc@outlook.com&gt;](https://github.com/LamGC.gpg)    
-GPG Fingerpint：`7EF5 FB1E 65C1 A6C6 D02D  FCDF CE57 746D 7E5E E6EF`
+GPG Fingerprint：`7EF5 FB1E 65C1 A6C6 D02D  FCDF CE57 746D 7E5E E6EF`
 
 ----------
 Github Readme Stats By [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)  
