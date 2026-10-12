@@ -1,0 +1,108 @@
+name: Update README stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # Daily at 03:17 UTC; avoid the busy top of the hour.
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/readme-stats.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-stats-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=LamGC&card_width=550&show_icons=true
+          path: profile/stats.svg
+          token: ${{ github.token }}
+          # Empty uses core 2.2.0 from the Action's frozen, integrity-checked lockfile.
+          core_version: ""
+          fail_on_error: "true"
+
+      - name: Generate languages card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=LamGC&card_width=500&layout=compact
+          path: profile/top-langs.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: "true"
+
+      - name: Validate generated cards
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          for name, width in (("stats", 550), ("top-langs", 500)):
+              path = Path("profile") / f"{name}.svg"
+              source = path.read_text()
+              svg = ET.fromstring(source)
+              assert svg.tag == "{http://www.w3.org/2000/svg}svg", path
+              assert float(svg.attrib["width"]) == width, path
+              assert "Something went wrong" not in source, path
+              assert len(source) > 1000, path
+          PY
+
+      - name: Upload cards
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: readme-stats
+          path: |
+            profile/stats.svg
+            profile/top-langs.svg
+          if-no-files-found: error
+          retention-days: 7
+
+  commit:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # Only this job can write. The third-party renderer receives a read-only token.
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the exact source commit
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Download cards
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: readme-stats
+          path: profile
+
+      - name: Commit changed cards
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- profile/stats.svg profile/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "Cards are unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update README stats cards"
+          # A concurrent branch edit causes a safe failure; never force-push.
+          git push origin "HEAD:${GITHUB_REF_NAME}"
